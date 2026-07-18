@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Audio
+audio/
+*.wav
+*.mp3
+*.ogg
+
+__pycache__/
+
+.idea/

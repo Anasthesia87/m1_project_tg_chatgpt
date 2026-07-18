@@ -3,6 +3,16 @@ Telegram ChatGPT Bot
 Основной файл запуска бота
 """
 
+import os
+
+# ОТКЛЮЧАЕМ ПРОКСИ
+os.environ.pop("http_proxy", None)
+os.environ.pop("https_proxy", None)
+os.environ.pop("HTTP_PROXY", None)
+os.environ.pop("HTTPS_PROXY", None)
+os.environ.pop("all_proxy", None)
+os.environ.pop("ALL_PROXY", None)
+
 import fix_pydub
 import sys
 from telegram.ext import (

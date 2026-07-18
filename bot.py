@@ -2,6 +2,7 @@
 Telegram ChatGPT Bot
 Основной файл запуска бота
 """
+
 import fix_pydub
 import sys
 from telegram.ext import (
